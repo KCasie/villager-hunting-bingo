@@ -10,11 +10,16 @@
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/ntijoh-my-lovell/webbshop-te4-angular.git
+   git clone https://github.com/ntijoh-my-lovell/villager-hunting-bingo
    ```
 2. Install NPM packages
    ```sh
    npm install
+   ```
+
+### Run the application in ``villager-hunting-bingo/alpha``
+   ```sh
+   ng serve
    ```
 
 <!-- CONTRIBUTING -->
