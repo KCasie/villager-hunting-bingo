@@ -17,7 +17,8 @@
    npm install
    ```
 
-### Run the application in ``villager-hunting-bingo/alpha``
+### Running the application 
+in ``villager-hunting-bingo/villager-bingo``
    ```sh
    ng serve
    ```
