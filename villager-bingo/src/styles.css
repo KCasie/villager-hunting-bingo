@@ -1,1 +1,82 @@
 /* Main Stylesheet */
+
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Spline Sans Mono', monospace;
+}
+
+nav, ul, main, footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* NAVBAR */
+
+nav {
+    background: #9dffb0;
+    font-size: 1.7rem;
+}
+
+nav h1 {
+    color: white;
+    font-weight: 500;
+}
+
+nav a {
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    flex-basis: 20%;
+}
+
+/* MAIN */
+
+main {
+    background-image: url('https://i.redd.it/4124xor7bmo41.jpg');
+    background-size: cover;
+    flex-direction: column;
+    /* height: 80vh; */
+}
+
+.container {
+    border: 10px solid #ffdadc;
+    background: #cf8f9b;
+}
+
+/* .leftbar {
+    color: #81f1f7;
+} */
+/* 
+.rightbar {
+    color: lightgreen;
+} */
+
+.bingoCard {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.tile, .middle {
+    width: 140px;
+    height: 140px;
+}
+
+/* FOOTER */
+
+footer {
+    background: #c48d3f;
+    height: 10vh;
+}
+
+/* GLOBAL STYLING */
