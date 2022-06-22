@@ -18,19 +18,27 @@ nav, ul, main, footer {
 /* NAVBAR */
 
 nav {
-    background: #9dffb0;
+    background: #f6eee1;
     font-size: 1.7rem;
 }
 
 nav h1 {
-    color: white;
+    color: #327a93;
     font-weight: 500;
 }
 
 nav a {
-    color: white;
+    color: #88c9a1;
     font-weight: 300;
     text-decoration: none;
+}
+
+nav:hover {
+    background: #9dffb0;
+}
+
+nav a:hover {
+    color: white;
 }
 
 ul {
@@ -40,43 +48,67 @@ ul {
 
 /* MAIN */
 
-main {
-    background-image: url('https://i.redd.it/4124xor7bmo41.jpg');
-    background-size: cover;
-    flex-direction: column;
-    /* height: 80vh; */
+h2 {
+    display: flex;
+    justify-content: center;
+    background: #f6eee1;
+    color: #ec7174;
+    font-size: 2.5rem;
+    margin: 0;
+    padding: 2% 0;
 }
+
+main {
+    display: flex;
+    background: url('https://i.redd.it/4124xor7bmo41.jpg') 100% 100% no-repeat;
+    background-size: cover;
+    flex-direction: row;
+    padding: 0 1% 2% 1%;
+}
+
+/* .container {
+    background: linear-gradient(to right bottom, #c2e59c 15%, #64b3f4);
+} */
 
 .container {
-    border: 10px solid #ffdadc;
-    background: #cf8f9b;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+    border: 10px solid #6af6d9;
 }
 
-/* .leftbar {
-    color: #81f1f7;
-} */
-/* 
+.leftbar {
+    padding: 2%;
+    background: #81f1f7;
+}
+
 .rightbar {
-    color: lightgreen;
-} */
+    padding: 2%;
+    background: lightgreen;
+}
 
 .bingoCard {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(5, 1fr);
-    gap: 10px;
+    gap: 10px solid white;
 }
 
 .tile, .middle {
     width: 140px;
     height: 140px;
+    border: 1px solid #f1ad88;
+}
+
+.middle {
+    background: url('https://placekitten.com/140/140') 0 20px no-repeat;
+    background-size: 80% auto;
 }
 
 /* FOOTER */
 
 footer {
-    background: #c48d3f;
-    height: 10vh;
+    background: #f1ad88;
+    padding: 1% 0;
 }
 
 /* GLOBAL STYLING */
